@@ -22,7 +22,7 @@ document.getElementById("myForm").addEventListener("submit", function (event) {
       // Handle the successful submission response
       console.log(data);
       // Redirect to index.html after successful submission
-      window.location.href = "index.html";
+      window.location.href = "success.html";
     })
     .catch((error) => {
       // Handle errors during submission
